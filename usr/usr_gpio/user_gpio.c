@@ -35,7 +35,6 @@ int user_gpio_func(void)
 		ret = tls_gpio_read(gpio_pin);	/*ÏÈ¶ÁÄ¬ÈÏ×´Ì¬*/
 		printf("\ngpio%c[%d] default value==[%d]\n", (gpio_pin > WM_IO_PB_00) ?'B':'A', gpio_pin - WM_IO_PB_00,ret);
 	}
-	
 	tls_os_timer_create(&GpioTimer, gpio_test_timer_proc, NULL, GPIO_SCAN_TIME, TRUE, NULL);
 	tls_os_timer_start(GpioTimer);
 }
