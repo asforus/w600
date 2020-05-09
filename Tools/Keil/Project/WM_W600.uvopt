@@ -166,9 +166,6 @@
           <ItemText>in</ItemText>
         </Mm>
       </MemoryWindow1>
-      <Tracepoint>
-        <THDelay>0</THDelay>
-      </Tracepoint>
       <DebugFlag>
         <trace>0</trace>
         <periodic>0</periodic>
@@ -195,6 +192,9 @@
         <newCpu>0</newCpu>
         <uProt>0</uProt>
       </DebugFlag>
+      <Tracepoint>
+        <THDelay>0</THDelay>
+      </Tracepoint>
       <LintExecutable></LintExecutable>
       <LintConfigFile></LintConfigFile>
     </TargetOption>
@@ -212,10 +212,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>45</ColumnNumber>
+      <ColumnNumber>6</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
       <TopLine>1</TopLine>
-      <CurrentLine>13</CurrentLine>
+      <CurrentLine>23</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\App\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -2371,6 +2371,30 @@
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\Src\App\web\web.c</PathWithFileName>
       <FilenameWithoutPath>web.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+  </Group>
+
+  <Group>
+    <GroupName>usr_gpio</GroupName>
+    <tvExp>1</tvExp>
+    <tvExpOptDlg>0</tvExpOptDlg>
+    <cbSel>0</cbSel>
+    <RteFlg>0</RteFlg>
+    <File>
+      <GroupNumber>25</GroupNumber>
+      <FileNumber>125</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <ColumnNumber>19</ColumnNumber>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <TopLine>13</TopLine>
+      <CurrentLine>49</CurrentLine>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\usr\usr_gpio\user_gpio.c</PathWithFileName>
+      <FilenameWithoutPath>user_gpio.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
